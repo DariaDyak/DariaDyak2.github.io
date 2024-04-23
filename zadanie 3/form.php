@@ -1,7 +1,8 @@
 <?php
-$user = 'u67318';
-$pass = '5745345';
-$db = new PDO('mysql:host=localhost;dbname=u67318', $user, $pass, [PDO::ATTR_PERSISTENT => true, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
+
+
+$db = new PDO('mysql:host=' . DB_HOST . ';dbname=' . DB_NAME, DB_USER, DB_PASSWORD,
+[PDO::ATTR_PERSISTENT => true, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]); 
 
 $languages = []; 
 
