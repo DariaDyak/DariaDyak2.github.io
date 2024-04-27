@@ -1,0 +1,21 @@
+html, body {
+    height: 100vh;
+    background-color: aliceblue;
+  }
+  
+  #forma{
+	
+    margin: 30px auto;
+    background-color: white;
+ 
+  }
+  #form1{
+    padding: 5vw;
+    padding-bottom: 0;
+  }
+
+  .form-group{
+    padding-bottom: 2px;
+  }
+
+
